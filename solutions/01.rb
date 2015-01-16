@@ -10,7 +10,7 @@ def lucas(n)
 end
 
 def summed(n)
-    fibonacci(n) + lucas(n)
+  fibonacci(n) + lucas(n)
 end
 
 def series(name, n)
