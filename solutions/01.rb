@@ -14,6 +14,6 @@ def summed(n)
 end
 
 def series(name, n)
-send(name, n)
+  send(name, n)
 end
 
