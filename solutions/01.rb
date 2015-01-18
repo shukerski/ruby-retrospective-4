@@ -14,6 +14,10 @@ def summed(n)
 end
 
 def series(name, n)
-  send(name, n)
+  case name
+  when "fibonacci" then fibonacci(n)
+  when "lucas"     then lucas(n)
+  when "summed"    then summed(n)
+  end
 end
 
