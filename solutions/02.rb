@@ -9,4 +9,8 @@ class NumberSet
     @numbers.each(&block)
   end
 
+  def <<(number)
+    @numbers << number unless @numbers.include? number
+  end
+
 end
