@@ -5,4 +5,8 @@ class NumberSet
     @numbers = []
   end
 
+  def each(&block)
+    @numbers.each(&block)
+  end
+
 end
