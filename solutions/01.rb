@@ -15,9 +15,9 @@ end
 
 def series(name, n)
   case name
-  when "fibonacci" then fibonacci(n)
-  when "lucas"     then lucas(n)
-  when "summed"    then summed(n)
+    when "fibonacci" then fibonacci(n)
+    when "lucas"     then lucas(n)
+    when "summed"    then summed(n)
   end
 end
 
